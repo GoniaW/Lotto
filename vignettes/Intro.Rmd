@@ -5,6 +5,7 @@ vignette: >
   %\VignetteIndexEntry{Intro}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
+  %\VignetteBuilder{Sweave}
 ---
 
 ```{r, include = FALSE}

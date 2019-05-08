@@ -7,8 +7,8 @@
 multi_multi(draw_number = 10)
 }
 \arguments{
-\item{draw_number}{}
+\item{draw_number}{Default is draw_numbers=10 - the maximum draws in multi multi game, and the possible values of draw_numbers are integers from range 1-10 like in the real game.}
 }
 \description{
-
+Draws as many numbers as specified in draw_number parameter from 80. Default is draw_numbers=10 - the maximum draws in multi multi game, and the possible values of draw_numbers are integers from range 1-10 like in the real game.
 }

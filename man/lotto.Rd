@@ -7,8 +7,8 @@
 lotto(draw_number = 6)
 }
 \arguments{
-\item{draw_number}{}
+\item{draw_number}{Default is draw_numbers=6 like in standard lotto game, and the possible values of draw_numbers are integers from range 6-12 like in the various extentions of lotto game.}
 }
 \description{
-
+Draws as many numbers as specified in draw_number parameter from 49.
 }
