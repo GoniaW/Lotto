@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(Lotto)
 ```
+Package Lotto makes it easier to decide which numbers to choose when you play lotto game and similar. Different functions correspond to different type of game.
 
 In order to draw numbers for standard lotto game, use function lotto as shown in example:
 ```{r example}
@@ -24,6 +25,16 @@ lotto()
 ```
 
 You can also specify the argument draw_number to be an integer in range 6 to 12, for example:
-```{r example}
+```{r example2}
 lotto(draw_number = 12)
+```
+
+In Lotto package you can also find other function allowing you to draw numbers for other similar games such as multi multi, where 20 out of 80 numbers are drawn, and the player can draw 1 to 10 numbers. There is a function called multi_multi() for that:
+```{r example3}
+multi_multi()
+```
+
+The default value of the argument draw_number, specifing how many numbers are being drawn, is 10. We can set it to any integer from range 1-10, like in the real game. For example:
+```{r example4}
+multi_multi(draw_number = 8)
 ```
