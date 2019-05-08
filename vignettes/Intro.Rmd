@@ -38,3 +38,8 @@ The default value of the argument draw_number, specifing how many numbers are be
 ```{r example4}
 multi_multi(draw_number = 8)
 ```
+
+Another function mini_lotto() is dedicated to mini lotto game players, as it draws 5 out of 42 numbers at random, like in the standard mini lotto game:
+```{r example5}
+mini_lotto()
+```
