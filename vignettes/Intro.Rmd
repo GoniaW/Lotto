@@ -1,0 +1,29 @@
+---
+title: "Intro"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Intro}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Lotto)
+```
+
+In order to draw numbers for standard lotto game, use function lotto as shown in example:
+```{r example}
+lotto()
+```
+
+You can also specify the argument draw_number to be an integer in range 6 to 12, for example:
+```{r example}
+lotto(draw_number = 12)
+```
