@@ -84,19 +84,19 @@
 <p>Package Lotto makes it easier to decide which numbers to choose when you play lotto game and similar. Different functions correspond to different type of game.</p>
 <p>In order to draw numbers for standard lotto game, use function lotto as shown in example:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="../reference/lotto.html">lotto</a></span>()
-<span class="co">#&gt; [1] 46  9 22 28 44 34</span></code></pre></div>
+<span class="co">#&gt; [1] 22 48 17  8 36 20</span></code></pre></div>
 <p>You can also specify the argument draw_number to be an integer in range 6 to 12, for example:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="../reference/lotto.html">lotto</a></span>(<span class="dt">draw_number =</span> <span class="dv">12</span>)
-<span class="co">#&gt;  [1] 13  6 11 21 38 20  3  5 27 22 45 37</span></code></pre></div>
+<span class="co">#&gt;  [1] 29 48  5 38  1 10 45 36 14  4  3 21</span></code></pre></div>
 <p>In Lotto package you can also find other function allowing you to draw numbers for other similar games such as multi multi, where 20 out of 80 numbers are drawn, and the player can draw 1 to 10 numbers. There is a function called multi_multi() for that:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="../reference/multi_multi.html">multi_multi</a></span>()
-<span class="co">#&gt;  [1] 68 55 67 50 63 64 14 12 31 23</span></code></pre></div>
+<span class="co">#&gt;  [1] 63 36 31 80  8 16 65 70 68 21</span></code></pre></div>
 <p>The default value of the argument draw_number, specifing how many numbers are being drawn, is 10. We can set it to any integer from range 1-10, like in the real game. For example:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="../reference/multi_multi.html">multi_multi</a></span>(<span class="dt">draw_number =</span> <span class="dv">8</span>)
-<span class="co">#&gt; [1] 27  3 40 33 13 78 18  1</span></code></pre></div>
+<span class="co">#&gt; [1] 70 60 47 75 26 27 31 69</span></code></pre></div>
 <p>Another function mini_lotto() is dedicated to mini lotto game players, as it draws 5 out of 42 numbers at random, like in the standard mini lotto game:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="../reference/mini_lotto.html">mini_lotto</a></span>()
-<span class="co">#&gt; [1] 24 35 39 32 11</span></code></pre></div>
+<span class="co">#&gt; [1] 36 12 41 24 17</span></code></pre></div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
